@@ -1,10 +1,31 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('./assets/fonts/Raleway-Regular_0.woff2') format('woff2'),
+         url('./assets/fonts/Raleway-Regular_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular_bold';
+    src: url('./assets/fonts/Raleway-Regular_Bold.woff2') format('woff2'),
+         url('./assets/fonts/Raleway-Regular_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  background: #F8F8F8;
+  font-family: 'ralewayregular', 'ralewayregular_bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #160364;
 }
 
 code {
